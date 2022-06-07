@@ -1,0 +1,105 @@
+header {
+  height: 72px;
+  background: #3c3a39;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  background: #1c1a19;
+}
+
+.intro {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #f55800;
+}
+
+.description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+#hero-main {
+  width: 500px;
+}
+
+.icon {
+  list-style: none;
+}
+
+footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #8993a4;
+  margin: 5%;
+  line-height: 25px;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+}
+
+textarea {
+  margin: 5%;
+  padding-left: 2%;
+  padding-top: 2%;
+  border: none;
+  height: 130px;
+  background-color: #f7f4f1;
+  color: #1c1a19;
+}
+
+input::placeholder {
+  color: #8993a4;
+  font-size: 2.2vh;
+}
+
+textarea::placeholder {
+  color: #1c1a19;
+}
+
+footer hr {
+  margin-top: 20%;
+  margin-bottom: 0%;
+  width: 100%;
+}
